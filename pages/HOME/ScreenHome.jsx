@@ -6,6 +6,7 @@ const ScreenHome = () => {
   return (
     <>
     <Header></Header>
+    <Body></Body>
     </>
   )
 }
