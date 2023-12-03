@@ -1,9 +1,12 @@
 import React from 'react'
 import style from './Body.module.css'
+import BodyTitle from './bodyTitle/BodyTitle'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <>
+    <BodyTitle></BodyTitle>
+    </>
   )
 }
 
