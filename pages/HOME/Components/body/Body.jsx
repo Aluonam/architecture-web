@@ -6,11 +6,11 @@ import BodyGallery from './bodyGallery/BodyGallery'
 
 const Body = () => {
   return (
-    <>
-    <BodyTitle></BodyTitle>
-    <BodyFeatures></BodyFeatures>
-    <BodyGallery></BodyGallery>
-    </>
+    <div className={style.body}>
+      <BodyTitle></BodyTitle>
+      <BodyFeatures></BodyFeatures>
+      <BodyGallery></BodyGallery>
+    </div>
   )
 }
 
