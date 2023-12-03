@@ -1,9 +1,12 @@
 import React from 'react'
 import style from './ScreenHome.module.css'
+import Header from './Components/header/Header'
 
 const ScreenHome = () => {
   return (
-    <div>home</div>
+    <>
+    <Header></Header>
+    </>
   )
 }
 
