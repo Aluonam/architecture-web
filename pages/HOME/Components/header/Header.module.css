@@ -3,4 +3,9 @@
     width: 100vw;
     height: 10vh;
     background-color: #D9D9D9;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px;
 }
