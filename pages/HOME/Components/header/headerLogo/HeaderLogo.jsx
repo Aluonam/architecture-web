@@ -3,7 +3,7 @@ import style from './HeaderLogo.module.css'
 
 const HeaderLogo = () => {
   return (
-    <div className={style.logo}>HeaderLogo</div>
+    <img className={style.logo}/>
   )
 }
 
