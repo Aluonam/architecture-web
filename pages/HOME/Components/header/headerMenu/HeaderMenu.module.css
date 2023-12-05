@@ -4,5 +4,15 @@
     height: 10vh;
     min-height: 32px;
     background-color: #453E3E;
-    /* margin-right: 50px; */
+     display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px; 
+    gap: 10px; 
+}
+
+@media screen {
+    .menu{
+         min-width: 200px;
+    }
 }
