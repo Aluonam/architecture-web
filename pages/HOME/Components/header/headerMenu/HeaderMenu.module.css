@@ -1,7 +1,8 @@
 
 .menu{
-    width: 500px;
-    height: 80px;
+    width: 40vw;
+    height: 10vh;
+    min-height: 32px;
     background-color: #453E3E;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
