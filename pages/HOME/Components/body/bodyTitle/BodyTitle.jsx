@@ -3,7 +3,10 @@ import style from './BodyTitle.module.css'
 
 const BodyTitle = () => {
   return (
-    <div>BodyTitle</div>
+    <div className={style.bodyTitle}>
+      <img src=''></img>
+    </div>
+    
   )
 }
 
