@@ -11,9 +11,20 @@
     background-size: cover;
     }
 
+
+ .textTitle{
+     position: absolute;
+     font-size: 5em;
+     letter-spacing: 0.5em;
+ }   
+
 @media only screen and (max-width: 600px){
     .bodyTitle{
         width: 100%;
         height: auto;
     }
+    .textTitle {
+        font-size: 3em; 
+        letter-spacing: 0.1em; 
+      }
 }
