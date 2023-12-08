@@ -5,6 +5,12 @@
     background-color: #E7D4D4;
 }
 
+.img{
+    /* background-image: url('../../../images/architectureCorner.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
 @media only screen and (max-width: 600px){
     .bodyTitle{
         width: 100%;
