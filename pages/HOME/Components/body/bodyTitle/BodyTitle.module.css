@@ -1,30 +1,70 @@
 
 .bodyTitle{
     width: 100%;
-    height: 75%;
+    height: 75vh;
     background-color: #E7D4D4;
+
+    position: relative; /* Necesario para el posicionamiento del texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Asegura que el texto esté centrado verticalmente */
+   
 }
 
 .img{
-    /* background-image: url('../../../images/architectureCorner.png'); */
+    background-image: url('../../../images/architectureCorner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    }
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+}
 
 
  .textTitle{
      position: absolute;
-     font-size: 5em;
+     font-size: 5vw;
      letter-spacing: 0.5em;
+     display: flex;
+     flex-direction: column; 
+     text-align: flex-start; 
+     margin: 1%;
+    z-index: 1; 
  }   
 
-@media only screen and (max-width: 600px){
-    .bodyTitle{
-        width: 100%;
+/* Media query para pantallas de hasta 768px (tablets y móviles en modo horizontal) */
+@media only screen and (max-width: 768px) {
+    .bodyTitle {
         height: auto;
     }
+  
     .textTitle {
-        font-size: 3em; 
-        letter-spacing: 0.1em; 
+      font-size: 6vw; 
+      letter-spacing: 0.2em; 
+    }
+
+  .img {
+    background-size: contain; 
+    height: 50vh;
+  }
+
+  }
+
+/* Media query para pantallas de hasta 600px (móviles) */
+@media only screen and (max-width: 600px) {
+    .bodyTitle {
+      height: auto; 
+    }
+  
+    .textTitle {
+      font-size: 8vw; 
+      letter-spacing:  0.05em; 
+      margin: 0; 
+      padding: 10px;
+    }
+    .img {
+        background-size: contain;
+        height: 40vh;
       }
-}
+  }
